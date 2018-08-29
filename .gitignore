@@ -1,0 +1,9 @@
+*.pyc
+env/
+venv/
+.vscode/
+app/__pycache__/views.cpython-35.pyc
+app/db/__pycache__/
+app/*.pyc
+app/db/*.pyc
+app/auth/*.pyc
