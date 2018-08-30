@@ -7,7 +7,7 @@ app = Flask(__name__, instance_relative_config = True)
 app.config.from_object(app_config["development"])
 
 
-app.config['swagger'] = {'swagger': '2.0', 'title': 'StackOverFlow-api',
+app.config['swagger'] = {'swagger': '2.0', 'title': 'StackOverFlow-3',
                          'description': "is a web based app that enables users to \
                          ask questions on the platform and get answers.",
                          'basePath': '', 'version': '0.0.1', 'contact': {
@@ -26,7 +26,7 @@ app.config['swagger'] = {'swagger': '2.0', 'title': 'StackOverFlow-api',
                             },
                             {
                                 'name': 'Answers',
-                                'description': 'Reply added to a question'
+                                'description': 'Answer added to a question'
                             }]}
               
 swag = Swagger(app)
