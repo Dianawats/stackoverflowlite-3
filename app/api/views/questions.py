@@ -74,3 +74,4 @@ def get_one_question(user_id, qtn_id):
     except Exception as e:
         logging.error(e)
         return make_response(jsonify({'message': str(e)}), 500)
+
