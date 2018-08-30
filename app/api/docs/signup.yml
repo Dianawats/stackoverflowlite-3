@@ -44,3 +44,4 @@ responses:
           type: string
           enum:
             - “Email already in use”
+
