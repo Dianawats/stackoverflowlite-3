@@ -1,0 +1,20 @@
+language: python
+python:
+  - "3.6.5"
+
+cache: pip3
+
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+  - pip install coveralls
+
+# command to run tests
+script:
+  - py.test --cov=app
+  - coverage report
+
+after_success:
+  - coveralls
+
+  

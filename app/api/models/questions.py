@@ -9,7 +9,7 @@ from app.api.models.user import User
 
 class Question(User, DatabaseConnection):
     
-    """Model to fine the structure of a user Question"""
+    """Model to find the structure of a user Question"""
 
     def __init__(self,qtn_id,user_id,title, subject, qtn_desc):
         DatabaseConnection.__init__(self)

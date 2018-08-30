@@ -39,3 +39,4 @@ responses:
           type: string
           enum:
             - "wrong password or email credentials"
+            
