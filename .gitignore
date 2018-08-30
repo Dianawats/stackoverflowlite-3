@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .vscode/
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -52,3 +53,14 @@ coverage.xml
 *.mo
 *.pot
 /venv/
+=======
+*.pyc
+env/
+venv/
+.vscode/
+app/__pycache__/views.cpython-35.pyc
+app/db/__pycache__/
+app/*.pyc
+app/db/*.pyc
+app/auth/*.pyc
+>>>>>>> ddc620e21b8d9400b93700aa52799b21c787fe67
