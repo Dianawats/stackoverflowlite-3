@@ -1,4 +1,6 @@
+
 # StackOverflow-lite
+
 #Challenge3:
 
 StackOverflow-lite is a platform where people can ask questions and provide answers.
@@ -7,9 +9,9 @@ StackOverflow-lite is a platform where people can ask questions and provide answ
 
 ## Technologies used
 
-- `Python3.6` - Programming language that lets you work more quickly
-- `Flask` - Python based web framework
-- `Virtualenv` - A tool to create isolated virtual environment
+- `Python3.6` 
+- `Flask` 
+- `Virtualenv` 
 
 ## Running the tests
 To run tests run this command below in your terminal
@@ -21,28 +23,22 @@ nosetests -v --with-coverage
 ## Installation
 **Clone this _Repository_**
 ```
-$ https://github.com/Dianawats/StackOverflow-lite.git
-$ cd StackOverflow-lite
+$ https://github.com/Dianawats/stackoverflowlite-3
 ```
-**Create virtual environment and install it**
-```
-$ virtualenv --python=python3 venv
-$ source /venv/bin/activate
-```
-**Install all the necessary _dependencies_ by**
+
+**Install all the necessary _dependencies:**
 ```
 $ pip3 install -r requirements.txt
 ```
-**Run _app_ by**
-
+**Running the app**
 ```
 Run the server At the terminal or console type
 $ Python run.py
+
 ```
 ## Versioning
 ```
 This API is versioned using url versioning starting, with the letter 'v'
-This is version one"v1" of the API
 ```
 ## End Points
 |           End Point                      |            Functionality                   |
@@ -54,5 +50,7 @@ This is version one"v1" of the API
 |     PUT api/v1/question/user_id/qtn_id   |             Edit user Question             |
 |    DELETE api/v1/question/user_id/qtn_id |             Delete user Question           |
 
-## Contributors
+
+
+## Author
 - [Dian](https://github.com/Dianawats)
